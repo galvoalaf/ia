@@ -6,7 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado")
 Const perguntas = [
     {
         enunciado: "pergunta1",
-        alternativas: ["aternativa1","alternativa2"]
+        alternativas:
+             {
+                texto:"alternatival"
+                Afirmacao: "Afirmaçao"
+             }
 }
 {
             enunciado: "pergunta2",
