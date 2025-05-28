@@ -37,5 +37,9 @@ const perguntas = [
     }
 ];
 
-Você, Enviando…
+function mostraAlternativa() {
+    pergutaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado
+    mostraAlternativa()
+}
 
